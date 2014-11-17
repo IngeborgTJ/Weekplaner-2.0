@@ -1,6 +1,7 @@
 Ukeplanlegger / Weekplaner 2.0:
 ============
-===English:
+===
+English:
 
 New version of Weekplaner - now you can priorates, and add due dates
 and status on your assignments!
@@ -9,7 +10,8 @@ This is an app made with Ruby on Rails to help me organize my tasks better throu
 
 Click on the link to get a walkthrough on how you install Ruby on Rails on your Mac: https://gorails.com/setup/osx/10.9-mavericks
 
-===Norsk:
+===
+Norsk:
 
 Her er en ny versjon av ukeplanleggeren: Nå kan du proritere, og legge til status og dato på oppgavene dine!  
 
