@@ -15,7 +15,7 @@ Norsk:
 
 Her er en ny versjon av ukeplanleggeren: Nå kan du proritere, og legge til status og dato på oppgavene dine!  
 
-Jeg har her laget en app med Ruby on Rails som skal hjelpe meg å holde styr på det jeg gjør av oppgaver uke for uke.
+Jeg har laget en app med Ruby on Rails som skal hjelpe meg å holde styr på det jeg gjør av oppgaver uke for uke.
 
 Klikk på linken for å få en gennomgang av hvordan du Ruby on Rails på din Mac: https://gorails.com/setup/osx/10.9-mavericks
 
