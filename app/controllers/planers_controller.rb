@@ -28,7 +28,7 @@ class PlanersController < ApplicationController
 
     respond_to do |format|
       if @planer.save
-        format.html { redirect_to @planer, notice: 'The plan was successfully created.' }
+        format.html { redirect_to @planer, notice: 'The message was successfully created.' }
         format.json { render :show, status: :created, location: @planer }
       else
         format.html { render :new }
@@ -42,7 +42,7 @@ class PlanersController < ApplicationController
   def update
     respond_to do |format|
       if @planer.update(planer_params)
-        format.html { redirect_to @planer, notice: 'The plan was successfully updated.' }
+        format.html { redirect_to @planer, notice: 'The message was successfully updated.' }
         format.json { render :show, status: :ok, location: @planer }
       else
         format.html { render :edit }
@@ -56,7 +56,7 @@ class PlanersController < ApplicationController
   def destroy
     @planer.destroy
     respond_to do |format|
-      format.html { redirect_to planers_url, notice: 'The plan was successfully deleted.' }
+      format.html { redirect_to planers_url, notice: 'The message was successfully deleted.' }
       format.json { head :no_content }
     end
   end

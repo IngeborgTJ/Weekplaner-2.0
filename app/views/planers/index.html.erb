@@ -1,9 +1,9 @@
-<h1>List of plans:</h1>
+<h1>List of Messages:</h1>
 
 <table>
   <thead>
     <tr>
-      <th>New plan:</th>
+      <th>New message:</th>
       <th>Priority:</th>
       <th>Date:</th>
       <th>Status:</th>
@@ -21,7 +21,7 @@
         <td><%= planer.status %></td>
         <td><%= link_to 'Show', planer %></td>
         <td><%= link_to 'Edit', edit_planer_path(planer) %></td>
-        <td><%= link_to 'Delete', planer, method: :delete, data: { confirm: 'Are you sure that you want to delete this task?' } %></td>
+        <td><%= link_to 'Delete', planer, method: :delete, data: { confirm: 'Are you sure that you want to delete this message?' } %></td>
       </tr>
     <% end %>
   </tbody>
